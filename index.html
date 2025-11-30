@@ -1,1 +1,650 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <title>Mirko Ciabatti - Director of Photography / Direttore della fotografia in Italia</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio di Mirko Ciabatti, director of photography e direttore della fotografia con base in Italia. Selezione di lavori per cinema, pubblicità, videoclip e documentari.">
+  <meta name="robots" content="index,follow">
 
+  <!-- Canonical (aggiorna con il dominio finale) -->
+  <link rel="canonical" href="https://mirkociabatti.github.io/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Mirko Ciabatti - Director of Photography in Italy">
+  <meta property="og:description" content="Director of photography e direttore della fotografia con base in Italia. Selezione di lavori per cinema, pubblicità, videoclip e documentari.">
+  <meta property="og:url" content="https://mirkociabatti.github.io/">
+  <!-- Placeholder image, sostituisci con una tua cover -->
+  <meta property="og:image" content="https://mirkociabatti.github.io/cover.jpg">
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Mirko Ciabatti - Director of Photography in Italy">
+  <meta name="twitter:description" content="Director of photography e direttore della fotografia con base in Italia. Selezione di lavori per cinema, pubblicità, videoclip e documentari.">
+  <meta name="twitter:image" content="https://mirkociabatti.github.io/cover.jpg">
+
+  <!-- Performance hints -->
+  <link rel="preconnect" href="https://vimeo.com" crossorigin>
+  <link rel="preconnect" href="https://i.vimeocdn.com" crossorigin>
+  <meta name="theme-color" content="#000000">
+
+  <!-- Schema.org Person -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Mirko Ciabatti",
+    "jobTitle": "Director of Photography",
+    "alternateName": [
+      "Direttore della fotografia",
+      "DOP",
+      "Cinematographer"
+    ],
+    "url": "https://mirkociabatti.github.io/",
+    "sameAs": [
+      "https://vimeo.com/mirkociabatti",
+      "https://www.instagram.com/mirko_ciabatti/?hl=en"
+    ],
+    "nationality": "Italian",
+    "knowsLanguage": ["it", "en"],
+    "description": "Mirko Ciabatti è un director of photography con base in Italia. Lavora su film, spot, videoclip e documentari con uno stile attento alla luce e alla composizione."
+  }
+  </script>
+
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg-color: #000000;
+      --text-color: #f5f5f5;
+      --accent-color: #ffffff;
+      --muted-color: #999999;
+      --card-bg: #111111;
+      --border-color: #222222;
+      --focus-outline: #ffffff;
+      --max-width: 1100px;
+      --transition-speed: 0.18s;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      height: 100%;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a {
+      color: var(--accent-color);
+      text-decoration: none;
+    }
+
+    a:hover,
+    a:focus-visible {
+      text-decoration: underline;
+    }
+
+    .site {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .site__inner {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem 2rem;
+    }
+
+    header.hero {
+      padding-top: 2.5rem;
+      padding-bottom: 2rem;
+    }
+
+    .hero__eyebrow {
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      font-size: 0.75rem;
+      color: var(--muted-color);
+      margin-bottom: 0.75rem;
+    }
+
+    .hero__title {
+      font-size: clamp(2rem, 4vw, 2.6rem);
+      font-weight: 600;
+      margin-bottom: 0.4rem;
+    }
+
+    .hero__subtitle {
+      font-size: 1rem;
+      color: var(--muted-color);
+      margin-bottom: 1.5rem;
+    }
+
+    .hero__text {
+      max-width: 40rem;
+      font-size: 0.98rem;
+      line-height: 1.6;
+      margin-bottom: 1.25rem;
+    }
+
+    .hero__text + .hero__text {
+      margin-top: 0.5rem;
+    }
+
+    .hero__links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-top: 1rem;
+    }
+
+    .hero__link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.4rem 0.8rem;
+      border-radius: 999px;
+      border: 1px solid var(--border-color);
+      font-size: 0.86rem;
+      text-decoration: none;
+      background: rgba(255, 255, 255, 0.02);
+      transition: border-color var(--transition-speed) ease, background-color var(--transition-speed) ease, transform var(--transition-speed) ease;
+    }
+
+    .hero__link:hover,
+    .hero__link:focus-visible {
+      border-color: var(--accent-color);
+      background: rgba(255, 255, 255, 0.06);
+      text-decoration: none;
+      transform: translateY(-1px);
+    }
+
+    .hero__link-label {
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      font-size: 0.7rem;
+      color: var(--muted-color);
+    }
+
+    main {
+      flex: 1;
+    }
+
+    section {
+      padding: 1.5rem 0;
+    }
+
+    .section__header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 1rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .section__title {
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+    }
+
+    .section__description {
+      font-size: 0.9rem;
+      color: var(--muted-color);
+      max-width: 24rem;
+    }
+
+    .videos-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+
+    @media (min-width: 640px) {
+      .videos-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .videos-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+    }
+
+    .video-card {
+      background-color: var(--card-bg);
+      border-radius: 0.75rem;
+      overflow: hidden;
+      border: 1px solid var(--border-color);
+      display: flex;
+      flex-direction: column;
+      min-height: 0;
+      transition: transform var(--transition-speed) ease, border-color var(--transition-speed) ease, box-shadow var(--transition-speed) ease;
+    }
+
+    .video-card__link {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .video-card:hover,
+    .video-card:focus-within {
+      transform: translateY(-2px);
+      border-color: var(--accent-color);
+      box-shadow: 0 14px 30px rgba(0, 0, 0, 0.7);
+    }
+
+    .video-card__thumb {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      overflow: hidden;
+      background: radial-gradient(circle at top, #1f1f1f, #000000);
+    }
+
+    .video-card__thumb img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+      transition: transform var(--transition-speed) ease, opacity var(--transition-speed) ease;
+    }
+
+    .video-card:hover .video-card__thumb img,
+    .video-card:focus-within .video-card__thumb img {
+      transform: scale(1.03);
+      opacity: 0.96;
+    }
+
+    .video-card__play-badge {
+      position: absolute;
+      inset: auto 0 0 auto;
+      margin: 0.6rem;
+      background: rgba(0, 0, 0, 0.7);
+      border-radius: 999px;
+      padding: 0.3rem 0.7rem;
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      color: #f5f5f5;
+    }
+
+    .video-card__play-dot {
+      width: 0.45rem;
+      height: 0.45rem;
+      border-radius: 999px;
+      border: 2px solid #f5f5f5;
+      position: relative;
+    }
+
+    .video-card__play-dot::after {
+      content: "";
+      position: absolute;
+      left: 54%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      border-style: solid;
+      border-width: 0.16rem 0 0.16rem 0.27rem;
+      border-color: transparent transparent transparent #f5f5f5;
+    }
+
+    .video-card__body {
+      padding: 0.8rem 0.85rem 0.9rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.2rem;
+    }
+
+    .video-card__title {
+      font-size: 0.96rem;
+      font-weight: 500;
+      line-height: 1.4;
+    }
+
+    .video-card__meta {
+      font-size: 0.78rem;
+      color: var(--muted-color);
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+    }
+
+    .video-card__skeleton {
+      background: linear-gradient(90deg, #1a1a1a 0%, #222222 40%, #1a1a1a 80%);
+      background-size: 200% 100%;
+      animation: shimmer 1.3s infinite linear;
+      width: 70%;
+      height: 0.8rem;
+      border-radius: 999px;
+      margin-top: 0.2rem;
+    }
+
+    @keyframes shimmer {
+      0% {
+        background-position: -200% 0;
+      }
+      100% {
+        background-position: 200% 0;
+      }
+    }
+
+    .videos-grid__message {
+      font-size: 0.9rem;
+      color: var(--muted-color);
+      margin-top: 0.5rem;
+    }
+
+    .contact {
+      border-top: 1px solid var(--border-color);
+      margin-top: 2.5rem;
+      padding-top: 1.5rem;
+      font-size: 0.9rem;
+      color: var(--muted-color);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 1.5rem;
+    }
+
+    .contact__item-label {
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      font-size: 0.72rem;
+      color: var(--muted-color);
+    }
+
+    .contact__item-value {
+      font-size: 0.9rem;
+    }
+
+    footer.site-footer {
+      border-top: 1px solid var(--border-color);
+      padding: 0.8rem 1.25rem;
+      font-size: 0.75rem;
+      color: var(--muted-color);
+    }
+
+    .site-footer__inner {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .site-footer__right {
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .skip-link {
+      position: absolute;
+      left: -999px;
+      top: auto;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+    }
+
+    .skip-link:focus-visible {
+      position: static;
+      width: auto;
+      height: auto;
+      padding: 0.4rem 0.7rem;
+      margin: 0.5rem 0;
+      background: #ffffff;
+      color: #000000;
+      border-radius: 999px;
+      outline: none;
+      z-index: 100;
+    }
+
+    :focus-visible {
+      outline: 2px solid var(--focus-outline);
+      outline-offset: 3px;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      * {
+        scroll-behavior: auto;
+        animation-duration: 0.001ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.001ms !important;
+      }
+    }
+  </style>
+</head>
+<body class="site">
+  <div class="site__inner">
+    <a href="#work" class="skip-link">Salta alla selezione di lavori</a>
+
+    <header class="hero">
+      <div class="hero__eyebrow">Director of photography</div>
+      <h1 class="hero__title">Mirko Ciabatti</h1>
+      <p class="hero__subtitle">Director of Photography / Direttore della fotografia - Italy</p>
+
+      <p class="hero__text">
+        Mirko Ciabatti è un direttore della fotografia con base in Italia. Lavora su film, spot, videoclip e documentari, costruendo l'immagine a partire dalla luce, dal movimento di camera e da una composizione essenziale.
+      </p>
+      <p class="hero__text">
+        Collabora con registi e produzioni tra Italia e Europa, alternando set narrativi e commerciali. Parla italiano e inglese, ed è disponibile per progetti in studio e on location.
+      </p>
+
+      <div class="hero__links">
+        <a class="hero__link" href="https://vimeo.com/mirkociabatti" target="_blank" rel="noopener noreferrer me" aria-label="Portfolio Vimeo di Mirko Ciabatti">
+          <span class="hero__link-label">Portfolio</span>
+          <span>/ Vimeo</span>
+        </a>
+        <a class="hero__link" href="https://www.instagram.com/mirko_ciabatti/?hl=en" target="_blank" rel="noopener noreferrer me" aria-label="Profilo Instagram di Mirko Ciabatti">
+          <span class="hero__link-label">Stills</span>
+          <span>/ Instagram</span>
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <section id="work" aria-labelledby="work-title">
+        <div class="section__header">
+          <h2 class="section__title" id="work-title">Selected work</h2>
+          <p class="section__description">
+            Una selezione di lavori in ordine dinamico caricata da Vimeo. I video sono letti da un semplice file videos.txt per aggiornare il portfolio senza toccare il codice.
+          </p>
+        </div>
+
+        <div id="videos-grid" class="videos-grid" aria-live="polite">
+          <!-- Cards video generate dal JavaScript -->
+        </div>
+        <p id="videos-message" class="videos-grid__message" role="status" aria-live="polite"></p>
+      </section>
+
+      <section aria-label="Contatti e base operativa">
+        <div class="contact">
+          <div class="contact__item">
+            <div class="contact__item-label">Contatti</div>
+            <div class="contact__item-value">
+              <a href="mailto:info@mirkociabatti.com">info@mirkociabatti.com</a>
+            </div>
+          </div>
+          <div class="contact__item">
+            <div class="contact__item-label">Base</div>
+            <div class="contact__item-value">
+              Italia / disponibile per produzioni internazionali
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <div>
+        © <span id="year"></span> Mirko Ciabatti. Director of Photography.
+      </div>
+      <div class="site-footer__right">
+        Simple one page portfolio · Static, fast, no cookies
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Imposta anno dinamico nel footer
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    const videosGrid = document.getElementById("videos-grid");
+    const videosMessage = document.getElementById("videos-message");
+
+    function createVideoCardSkeleton(vimeoUrl) {
+      const card = document.createElement("article");
+      card.className = "video-card";
+
+      const link = document.createElement("a");
+      link.className = "video-card__link";
+      link.href = vimeoUrl;
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+
+      const thumb = document.createElement("div");
+      thumb.className = "video-card__thumb";
+
+      const img = document.createElement("img");
+      img.loading = "lazy";
+      img.decoding = "async";
+      img.alt = "Video di Mirko Ciabatti su Vimeo";
+      thumb.appendChild(img);
+
+      const badge = document.createElement("div");
+      badge.className = "video-card__play-badge";
+      const playDot = document.createElement("span");
+      playDot.className = "video-card__play-dot";
+      const badgeText = document.createElement("span");
+      badgeText.textContent = "Play on Vimeo";
+      badge.appendChild(playDot);
+      badge.appendChild(badgeText);
+      thumb.appendChild(badge);
+
+      const body = document.createElement("div");
+      body.className = "video-card__body";
+
+      const title = document.createElement("h3");
+      title.className = "video-card__title";
+      title.textContent = "Caricamento titolo";
+
+      const meta = document.createElement("div");
+      meta.className = "video-card__meta";
+      meta.textContent = "Vimeo";
+
+      const skeleton = document.createElement("div");
+      skeleton.className = "video-card__skeleton";
+
+      body.appendChild(title);
+      body.appendChild(meta);
+      body.appendChild(skeleton);
+
+      link.appendChild(thumb);
+      link.appendChild(body);
+      card.appendChild(link);
+
+      return { card, img, title, meta, skeleton };
+    }
+
+    function extractVimeoId(urlString) {
+      try {
+        const url = new URL(urlString);
+        const segments = url.pathname.split("/").filter(Boolean);
+        if (!segments.length) return null;
+        return segments[segments.length - 1];
+      } catch (e) {
+        return null;
+      }
+    }
+
+    async function loadVideos() {
+      try {
+        const response = await fetch("videos.txt", { cache: "no-cache" });
+        if (!response.ok) {
+          throw new Error("Impossibile leggere videos.txt");
+        }
+        const text = await response.text();
+        const lines = text
+          .split(/\r?\n/)
+          .map(line => line.trim())
+          .filter(line => line.length && !line.startsWith("#"));
+
+        if (!lines.length) {
+          videosMessage.textContent = "Nessun video trovato. Aggiungi URL Vimeo in videos.txt, uno per riga.";
+          return;
+        }
+
+        videosMessage.textContent = "";
+
+        const cards = [];
+
+        // Prima creo tutte le card in modalità scheletro
+        for (const vimeoUrl of lines) {
+          const { card, img, title, meta, skeleton } = createVideoCardSkeleton(vimeoUrl);
+          videosGrid.appendChild(card);
+          cards.push({ vimeoUrl, img, title, meta, skeleton });
+        }
+
+        // Poi popolo i dati tramite oEmbed, in modo non bloccante
+        for (const item of cards) {
+          const { vimeoUrl, img, title, meta, skeleton } = item;
+
+          const oembedApi = "https://vimeo.com/api/oembed.json?url=" + encodeURIComponent(vimeoUrl);
+
+          try {
+            const oembedResponse = await fetch(oembedApi);
+            if (!oembedResponse.ok) {
+              throw new Error("Errore oEmbed");
+            }
+            const data = await oembedResponse.json();
+
+            if (data.thumbnail_url) {
+              img.src = data.thumbnail_url;
+            } else {
+              img.src = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1600' height='900'%3E%3Crect width='100%25' height='100%25' fill='%23000000'/%3E%3C/svg%3E";
+            }
+
+            if (data.title) {
+              title.textContent = data.title;
+            } else {
+              title.textContent = "Video su Vimeo";
+            }
+
+            meta.textContent = "Vimeo · " + (data.duration ? "duration " + data.duration + "s" : "online");
+            skeleton.remove();
+          } catch (error) {
+            // In caso di errore oEmbed, fallback minimal
+            img.src = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1600' height='900'%3E%3Crect width='100%25' height='100%25' fill='%23000000'/%3E%3C/svg%3E";
+            title.textContent = "Video su Vimeo";
+            meta.textContent = "Vimeo";
+            skeleton.remove();
+          }
+        }
+      } catch (error) {
+        videosMessage.textContent = "Errore nel caricamento dei video. Controlla che videos.txt sia presente nella stessa cartella di index.html.";
+      }
+    }
+
+    document.addEventListener("DOMContentLoaded", loadVideos);
+  </script>
+</body>
+</html>
