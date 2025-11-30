@@ -2,32 +2,30 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Mirko Ciabatti - Director of Photography / Direttore della fotografia in Italia</title>
+  <title>Mirko Ciabatti | Director of Photography (DOP) in Italy</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Portfolio di Mirko Ciabatti, director of photography e direttore della fotografia con base in Italia. Selezione di lavori per cinema, pubblicità, videoclip e documentari.">
+  <meta name="description" content="Official portfolio of Mirko Ciabatti, director of photography (DOP) based in Italy. Selected cinematography work for films, commercials, music videos and documentaries.">
   <meta name="robots" content="index,follow">
 
-  <!-- Canonical (aggiorna con il dominio finale) -->
-  <link rel="canonical" href="https://mirkociabatti.github.io/">
-
-  <!-- Hreflang per varianti lingua sulla stessa pagina -->
-  <link rel="alternate" hreflang="en" href="https://mirkociabatti.github.io/?lang=en">
-  <link rel="alternate" hreflang="it" href="https://mirkociabatti.github.io/?lang=it">
-  <link rel="alternate" hreflang="x-default" href="https://mirkociabatti.github.io/">
+  <!-- Canonical and hreflang for single page with language param -->
+  <link rel="canonical" href="https://www.mirkociabatti.com/">
+  <link rel="alternate" hreflang="en" href="https://www.mirkociabatti.com/?lang=en">
+  <link rel="alternate" hreflang="it" href="https://www.mirkociabatti.com/?lang=it">
+  <link rel="alternate" hreflang="x-default" href="https://www.mirkociabatti.com/">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Mirko Ciabatti - Director of Photography in Italy">
-  <meta property="og:description" content="Director of photography e direttore della fotografia con base in Italia. Selezione di lavori per cinema, pubblicità, videoclip e documentari.">
-  <meta property="og:url" content="https://mirkociabatti.github.io/">
-  <!-- Placeholder image, sostituisci con una tua cover -->
-  <meta property="og:image" content="https://mirkociabatti.github.io/cover.jpg">
+  <meta property="og:title" content="Mirko Ciabatti | Director of Photography (DOP) in Italy">
+  <meta property="og:description" content="Official portfolio of director of photography Mirko Ciabatti. Cinematography for films, commercials, music videos and documentaries.">
+  <meta property="og:url" content="https://www.mirkociabatti.com/">
+  <!-- Placeholder image, change with your cover -->
+  <meta property="og:image" content="https://www.mirkociabatti.com/cover.jpg">
 
   <!-- Twitter Cards -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Mirko Ciabatti - Director of Photography in Italy">
-  <meta name="twitter:description" content="Director of photography e direttore della fotografia con base in Italia. Selezione di lavori per cinema, pubblicità, videoclip e documentari.">
-  <meta name="twitter:image" content="https://mirkociabatti.github.io/cover.jpg">
+  <meta name="twitter:title" content="Mirko Ciabatti | Director of Photography (DOP) in Italy">
+  <meta name="twitter:description" content="Official portfolio of director of photography Mirko Ciabatti. Selected cinematography work shot in Italy and abroad.">
+  <meta name="twitter:image" content="https://www.mirkociabatti.com/cover.jpg">
 
   <!-- Performance hints -->
   <link rel="preconnect" href="https://vimeo.com" crossorigin>
@@ -40,7 +38,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
 
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
 
   <!-- Schema.org Person -->
   <script type="application/ld+json">
@@ -48,20 +46,27 @@
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Mirko Ciabatti",
-    "jobTitle": "Director of Photography",
+    "jobTitle": "Director of Photography (DOP)",
     "alternateName": [
       "Direttore della fotografia",
-      "DOP",
       "Cinematographer"
     ],
-    "url": "https://mirkociabatti.github.io/",
+    "url": "https://www.mirkociabatti.com/",
     "sameAs": [
       "https://vimeo.com/mirkociabatti",
       "https://www.instagram.com/mirko_ciabatti/?hl=en"
     ],
     "nationality": "Italian",
     "knowsLanguage": ["it", "en"],
-    "description": "Mirko Ciabatti è un director of photography con base in Italia. Lavora su film, spot, videoclip e documentari con uno stile attento alla luce e alla composizione."
+    "description": "Official portfolio of director of photography (DOP) Mirko Ciabatti, based in Italy. He works on films, commercials, music videos and documentaries with a strong focus on light, composition and camera movement.",
+    "knowsAbout": [
+      "cinematography",
+      "commercials",
+      "music videos",
+      "documentaries",
+      "lighting",
+      "camera movement"
+    ]
   }
   </script>
 
@@ -95,6 +100,10 @@
       background-color: var(--bg-color);
       color: var(--text-color);
       -webkit-font-smoothing: antialiased;
+    }
+
+    body.body--no-scroll {
+      overflow: hidden;
     }
 
     a {
@@ -135,7 +144,7 @@
 
     .hero__title {
       font-family: "Space Grotesk", system-ui, sans-serif;
-      font-size: clamp(2rem, 4vw, 2.6rem);
+      font-size: clamp(2.2rem, 4.4vw, 2.8rem);
       font-weight: 600;
       margin-bottom: 0.4rem;
     }
@@ -506,6 +515,211 @@
       border-color: #ffffff;
     }
 
+    /* Lightbox */
+
+    .lightbox {
+      position: fixed;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.25s ease-out;
+    }
+
+    .lightbox--active {
+      pointer-events: auto;
+      opacity: 1;
+    }
+
+    .lightbox__overlay {
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.92);
+      backdrop-filter: blur(2px);
+    }
+
+    .lightbox__dialog {
+      position: relative;
+      max-width: 1100px;
+      width: 100%;
+      margin: 0 1.25rem;
+      z-index: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      outline: none;
+    }
+
+    .lightbox__inner {
+      position: relative;
+      width: 100%;
+      background: #050505;
+      border-radius: 0.75rem;
+      border: 1px solid #333333;
+      padding: 0.75rem 0.75rem 0.85rem;
+      box-shadow: 0 28px 60px rgba(0, 0, 0, 0.9);
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+      transform: translateY(12px);
+      opacity: 0;
+      transition: opacity 0.25s ease-out, transform 0.25s ease-out;
+    }
+
+    .lightbox--active .lightbox__inner {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .lightbox__player-wrapper {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      background: #111111;
+      overflow: hidden;
+      border-radius: 0.6rem;
+    }
+
+    .lightbox__player-wrapper iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+      display: block;
+    }
+
+    .lightbox__meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 0.75rem;
+      font-size: 0.85rem;
+      color: var(--muted-color);
+      flex-wrap: wrap;
+    }
+
+    .lightbox__title {
+      font-size: 0.95rem;
+      font-weight: 500;
+      max-width: 75%;
+    }
+
+    .lightbox__open-vimeo {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      font-size: 0.8rem;
+      padding: 0.25rem 0.6rem;
+      border-radius: 999px;
+      border: 1px solid #333333;
+      background: transparent;
+      text-decoration: none;
+      transition: background-color var(--transition-speed) ease, border-color var(--transition-speed) ease, transform var(--transition-speed) ease;
+    }
+
+    .lightbox__open-vimeo i {
+      font-size: 0.9rem;
+    }
+
+    .lightbox__open-vimeo:hover,
+    .lightbox__open-vimeo:focus-visible {
+      border-color: var(--accent-color);
+      background: rgba(255, 255, 255, 0.06);
+      transform: translateY(-1px);
+    }
+
+    .lightbox__close {
+      position: absolute;
+      right: 0.75rem;
+      top: 0.75rem;
+      z-index: 2;
+      width: 2rem;
+      height: 2rem;
+      border-radius: 999px;
+      border: 1px solid #333333;
+      background: rgba(0, 0, 0, 0.7);
+      color: #f5f5f5;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: background-color var(--transition-speed) ease, border-color var(--transition-speed) ease, transform var(--transition-speed) ease;
+    }
+
+    .lightbox__close i {
+      font-size: 1rem;
+    }
+
+    .lightbox__close:hover,
+    .lightbox__close:focus-visible {
+      border-color: var(--accent-color);
+      background: rgba(255, 255, 255, 0.1);
+      transform: translateY(-1px);
+    }
+
+    .lightbox__nav {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 2;
+      width: 2.4rem;
+      height: 2.4rem;
+      border-radius: 999px;
+      border: 1px solid #333333;
+      background: rgba(0, 0, 0, 0.7);
+      color: #f5f5f5;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: background-color var(--transition-speed) ease, border-color var(--transition-speed) ease, transform var(--transition-speed) ease, opacity var(--transition-speed) ease;
+    }
+
+    .lightbox__nav--prev {
+      left: 0.25rem;
+    }
+
+    .lightbox__nav--next {
+      right: 0.25rem;
+    }
+
+    .lightbox__nav i {
+      font-size: 1rem;
+    }
+
+    .lightbox__nav:hover,
+    .lightbox__nav:focus-visible {
+      border-color: var(--accent-color);
+      background: rgba(255, 255, 255, 0.1);
+      transform: translateY(calc(-50% - 1px));
+    }
+
+    .lightbox__nav--disabled {
+      opacity: 0.2;
+      pointer-events: none;
+    }
+
+    @media (max-width: 640px) {
+      .lightbox__inner {
+        padding: 0.65rem;
+      }
+      .lightbox__title {
+        max-width: 100%;
+      }
+      .lightbox__nav {
+        width: 2.1rem;
+        height: 2.1rem;
+      }
+      .lightbox__nav--prev {
+        left: 0.2rem;
+      }
+      .lightbox__nav--next {
+        right: 0.2rem;
+      }
+    }
+
     @media (prefers-reduced-motion: reduce) {
       * {
         scroll-behavior: auto;
@@ -513,6 +727,35 @@
         animation-iteration-count: 1 !important;
         transition-duration: 0.001ms !important;
       }
+    }
+
+    /* Load animation */
+
+    .animate-on-load {
+      opacity: 0;
+      transform: translateY(10px);
+      transition: opacity 0.35s ease-out, transform 0.35s ease-out;
+    }
+
+    body.is-loaded .animate-on-load {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    body.is-loaded header.hero.animate-on-load {
+      transition-delay: 0.05s;
+    }
+
+    body.is-loaded #work .section__header.animate-on-load {
+      transition-delay: 0.12s;
+    }
+
+    body.is-loaded .videos-grid.animate-on-load {
+      transition-delay: 0.16s;
+    }
+
+    body.is-loaded .contact.animate-on-load {
+      transition-delay: 0.2s;
     }
   </style>
 </head>
@@ -528,25 +771,25 @@
       </div>
     </div>
 
-    <header class="hero">
+    <header class="hero animate-on-load">
       <div class="hero__eyebrow" id="hero-eyebrow">Director of photography</div>
-      <h1 class="hero__title" id="hero-title">Mirko Ciabatti</h1>
-      <p class="hero__subtitle" id="hero-subtitle">Director of Photography · Italy</p>
+      <h1 class="hero__title" id="hero-title">Mirko Ciabatti · Director of Photography (DOP)</h1>
+      <p class="hero__subtitle" id="hero-subtitle">Director of photography based in Italy, working across films, commercials, music videos and documentaries.</p>
 
       <p class="hero__text" id="hero-text-1">
-        Mirko Ciabatti is a director of photography based in Italy. He works on films, commercials, music videos and documentaries, building each frame from light, movement and a clean sense of composition.
+        Mirko Ciabatti is a director of photography (DOP) based in Italy. He creates images for films, commercials, music videos and documentaries, building each frame from light, composition and camera movement.
       </p>
       <p class="hero__text" id="hero-text-2">
-        He collaborates with directors and production companies across Europe, moving between narrative and commercial sets. He speaks Italian and English and is available for studio and on-location productions.
+        As a cinematographer, Mirko collaborates with directors and production companies across Europe, bringing a grounded, natural approach to storytelling. He works in both studio and on location, in Italian and English speaking environments.
       </p>
 
       <div class="hero__links">
-        <a class="hero__link" href="https://vimeo.com/mirkociabatti" target="_blank" rel="noopener noreferrer me" aria-label="Vimeo portfolio of Mirko Ciabatti">
+        <a class="hero__link" href="https://vimeo.com/mirkociabatti" target="_blank" rel="noopener noreferrer me" aria-label="Vimeo portfolio of director of photography Mirko Ciabatti">
           <i class="fa-brands fa-vimeo-v hero__link-icon" aria-hidden="true"></i>
           <span class="hero__link-label" id="hero-link-vimeo-label">Portfolio</span>
           <span class="hero__link-slash" id="hero-link-vimeo-suffix">/ Vimeo</span>
         </a>
-        <a class="hero__link" href="https://www.instagram.com/mirko_ciabatti/?hl=en" target="_blank" rel="noopener noreferrer me" aria-label="Instagram profile of Mirko Ciabatti">
+        <a class="hero__link" href="https://www.instagram.com/mirko_ciabatti/?hl=en" target="_blank" rel="noopener noreferrer me" aria-label="Instagram profile of director of photography Mirko Ciabatti">
           <i class="fa-brands fa-instagram hero__link-icon" aria-hidden="true"></i>
           <span class="hero__link-label" id="hero-link-ig-label">Stills</span>
           <span class="hero__link-slash" id="hero-link-ig-suffix">/ Instagram</span>
@@ -556,21 +799,21 @@
 
     <main>
       <section id="work" aria-labelledby="work-title">
-        <div class="section__header">
+        <div class="section__header animate-on-load">
           <h2 class="section__title" id="work-title">Selected work</h2>
           <p class="section__description" id="work-description">
-            A curated selection of cinematography work by Mirko Ciabatti, including commercials, music videos and narrative projects shot in Italy and abroad.
+            A curated selection of cinematography work by director of photography Mirko Ciabatti, including commercials, music videos, narrative films and documentary projects shot in Italy and abroad.
           </p>
         </div>
 
-        <div id="videos-grid" class="videos-grid" aria-live="polite">
-          <!-- Cards video generate dal JavaScript -->
+        <div id="videos-grid" class="videos-grid animate-on-load" aria-live="polite">
+          <!-- Video cards injected by JavaScript -->
         </div>
-        <p id="videos-message" class="videos-grid__message" role="status" aria-live="polite"></p>
+        <p id="videos-message" class="videos-grid__message" role="status" aria-live="polite" data-state=""></p>
       </section>
 
       <section aria-label="Contacts and base">
-        <div class="contact">
+        <div class="contact animate-on-load">
           <div class="contact__item">
             <div class="contact__item-label" id="contact-label">Contact</div>
             <div class="contact__item-value">
@@ -588,6 +831,36 @@
     </main>
   </div>
 
+  <!-- Lightbox Vimeo -->
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <div class="lightbox__overlay" data-lightbox-overlay></div>
+    <div class="lightbox__dialog" role="dialog" aria-modal="true" aria-label="Video player">
+      <div class="lightbox__inner">
+        <button type="button" class="lightbox__close" id="lightbox-close" aria-label="Close video">
+          <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+        </button>
+        <button type="button" class="lightbox__nav lightbox__nav--prev" id="lightbox-prev" aria-label="Previous video">
+          <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
+        </button>
+        <button type="button" class="lightbox__nav lightbox__nav--next" id="lightbox-next" aria-label="Next video">
+          <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+        </button>
+
+        <div class="lightbox__player-wrapper" id="lightbox-player-wrapper">
+          <!-- Vimeo iframe injected here -->
+        </div>
+
+        <div class="lightbox__meta">
+          <h3 class="lightbox__title" id="lightbox-title">Video title</h3>
+          <a class="lightbox__open-vimeo" id="lightbox-open-vimeo" href="#" target="_blank" rel="noopener">
+            <i class="fa-brands fa-vimeo-v" aria-hidden="true"></i>
+            <span>Open on Vimeo</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <footer class="site-footer">
     <div class="site-footer__inner">
       <div>
@@ -601,11 +874,20 @@
   </footer>
 
   <script>
-    // Imposta anno dinamico nel footer
+    // Footer year
     document.getElementById("year").textContent = new Date().getFullYear();
 
     const videosGrid = document.getElementById("videos-grid");
     const videosMessage = document.getElementById("videos-message");
+
+    let videoItems = [];
+    let lightboxEl, lightboxDialog, lightboxPlayerWrapper, lightboxTitle, lightboxOpenVimeo;
+    let lightboxCloseBtn, lightboxPrevBtn, lightboxNextBtn;
+    let currentVideoIndex = -1;
+    let lastFocusedElement = null;
+    let lightboxKeydownHandler;
+    let touchStartX = null;
+    let touchStartY = null;
 
     function createVideoCardSkeleton(vimeoUrl) {
       const card = document.createElement("article");
@@ -624,7 +906,7 @@
       const img = document.createElement("img");
       img.loading = "lazy";
       img.decoding = "async";
-      img.alt = "Video by Mirko Ciabatti on Vimeo";
+      img.alt = "Cinematography work by director of photography Mirko Ciabatti on Vimeo";
       thumb.appendChild(img);
 
       const badge = document.createElement("div");
@@ -659,7 +941,6 @@
       link.appendChild(body);
       card.appendChild(link);
 
-      // Gestione fade in
       img.addEventListener("load", () => {
         thumb.dataset.loading = "false";
       });
@@ -668,7 +949,7 @@
         thumb.dataset.loading = "false";
       });
 
-      return { card, img, title, meta, skeleton, thumb };
+      return { card, img, title, meta, skeleton, thumb, link };
     }
 
     function extractVimeoId(urlString) {
@@ -686,7 +967,7 @@
       try {
         const response = await fetch("videos.txt", { cache: "no-cache" });
         if (!response.ok) {
-          throw new Error("Impossibile leggere videos.txt");
+          throw new Error("Cannot read videos.txt");
         }
         const text = await response.text();
         const lines = text
@@ -695,74 +976,297 @@
           .filter(line => line.length && !line.startsWith("#"));
 
         if (!lines.length) {
-          videosMessage.textContent = "No videos found. Add Vimeo URLs in videos.txt, one per line.";
+          videosMessage.dataset.state = "empty";
+          videosMessage.textContent = translations.en.videosEmpty;
           return;
         }
 
+        videosMessage.dataset.state = "";
         videosMessage.textContent = "";
 
-        const cards = [];
+        videoItems = [];
 
-        // Prima creo tutte le card in modalità scheletro
-        for (const vimeoUrl of lines) {
-          const { card, img, title, meta, skeleton, thumb } = createVideoCardSkeleton(vimeoUrl);
+        lines.forEach((vimeoUrl, index) => {
+          const vimeoId = extractVimeoId(vimeoUrl);
+          const { card, img, title, meta, skeleton, thumb, link } = createVideoCardSkeleton(vimeoUrl);
           videosGrid.appendChild(card);
-          cards.push({ vimeoUrl, img, title, meta, skeleton, thumb });
-        }
 
-        // Poi popolo i dati tramite oEmbed
-        for (const item of cards) {
-          const { vimeoUrl, img, title, meta, skeleton } = item;
-          const oembedApi = "https://vimeo.com/api/oembed.json?url=" + encodeURIComponent(vimeoUrl);
+          videoItems.push({
+            vimeoUrl,
+            vimeoId,
+            img,
+            titleElement: title,
+            meta,
+            skeleton,
+            thumb,
+            link,
+            videoTitle: null
+          });
+
+          link.dataset.videoIndex = String(index);
+          link.addEventListener("click", (event) => {
+            event.preventDefault();
+            openLightbox(index);
+          });
+        });
+
+        // Populate data via oEmbed
+        for (let i = 0; i < videoItems.length; i++) {
+          const item = videoItems[i];
+          const oembedApi = "https://vimeo.com/api/oembed.json?url=" + encodeURIComponent(item.vimeoUrl);
 
           try {
             const oembedResponse = await fetch(oembedApi);
             if (!oembedResponse.ok) {
-              throw new Error("Errore oEmbed");
+              throw new Error("oEmbed error");
             }
             const data = await oembedResponse.json();
 
             if (data.thumbnail_url) {
-              img.src = data.thumbnail_url;
+              item.img.src = data.thumbnail_url;
             } else {
-              img.src = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1600' height='900'%3E%3Crect width='100%25' height='100%25' fill='%23000000'/%3E%3C/svg%3E";
+              item.img.src = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1600' height='900'%3E%3Crect width='100%25' height='100%25' fill='%23000000'/%3E%3C/svg%3E";
             }
 
             if (data.title) {
-              title.textContent = data.title;
+              item.titleElement.textContent = data.title;
+              item.videoTitle = data.title;
             } else {
-              title.textContent = "Video on Vimeo";
+              item.titleElement.textContent = "Video on Vimeo";
+              item.videoTitle = "Video on Vimeo";
             }
 
-            meta.textContent = "Vimeo" + (data.duration ? " · " + Math.round(data.duration) + "s" : "");
-            skeleton.remove();
+            item.meta.textContent = "Vimeo" + (data.duration ? " · " + Math.round(data.duration) + "s" : "");
+            item.skeleton.remove();
           } catch (error) {
-            img.src = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1600' height='900'%3E%3Crect width='100%25' height='100%25' fill='%23000000'/%3E%3C/svg%3E";
-            title.textContent = "Video on Vimeo";
-            meta.textContent = "Vimeo";
-            skeleton.remove();
+            item.img.src = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1600' height='900'%3E%3Crect width='100%25' height='100%25' fill='%23000000'/%3E%3C/svg%3E";
+            item.titleElement.textContent = "Video on Vimeo";
+            item.videoTitle = "Video on Vimeo";
+            item.meta.textContent = "Vimeo";
+            item.skeleton.remove();
           }
         }
+
+        updateLightboxNavState();
       } catch (error) {
-        videosMessage.textContent = "Error loading videos. Check that videos.txt is present next to index.html.";
+        videosMessage.dataset.state = "error";
+        videosMessage.textContent = translations.en.videosError;
       }
     }
 
-    // Gestione lingue
+    // Lightbox logic
+
+    function initLightbox() {
+      lightboxEl = document.getElementById("lightbox");
+      lightboxDialog = lightboxEl.querySelector(".lightbox__dialog");
+      lightboxPlayerWrapper = document.getElementById("lightbox-player-wrapper");
+      lightboxTitle = document.getElementById("lightbox-title");
+      lightboxOpenVimeo = document.getElementById("lightbox-open-vimeo");
+      lightboxCloseBtn = document.getElementById("lightbox-close");
+      lightboxPrevBtn = document.getElementById("lightbox-prev");
+      lightboxNextBtn = document.getElementById("lightbox-next");
+
+      const overlay = lightboxEl.querySelector("[data-lightbox-overlay]");
+
+      overlay.addEventListener("click", closeLightbox);
+      lightboxCloseBtn.addEventListener("click", closeLightbox);
+
+      lightboxPrevBtn.addEventListener("click", () => {
+        navigateLightbox(-1);
+      });
+
+      lightboxNextBtn.addEventListener("click", () => {
+        navigateLightbox(1);
+      });
+
+      lightboxKeydownHandler = function (event) {
+        if (!lightboxEl.classList.contains("lightbox--active")) return;
+
+        if (event.key === "Escape") {
+          event.preventDefault();
+          closeLightbox();
+        } else if (event.key === "ArrowRight") {
+          event.preventDefault();
+          navigateLightbox(1);
+        } else if (event.key === "ArrowLeft") {
+          event.preventDefault();
+          navigateLightbox(-1);
+        } else if (event.key === "Tab") {
+          trapFocus(event);
+        }
+      };
+
+      lightboxDialog.addEventListener("touchstart", handleTouchStart, { passive: true });
+      lightboxDialog.addEventListener("touchmove", handleTouchMove, { passive: true });
+      lightboxDialog.addEventListener("touchend", handleTouchEnd, { passive: true });
+    }
+
+    function openLightbox(index) {
+      if (!lightboxEl || !videoItems.length) return;
+      if (index < 0 || index >= videoItems.length) return;
+
+      currentVideoIndex = index;
+
+      if (!lightboxEl.classList.contains("lightbox--active")) {
+        lightboxEl.classList.add("lightbox--active");
+        lightboxEl.setAttribute("aria-hidden", "false");
+        document.body.classList.add("body--no-scroll");
+        lastFocusedElement = document.activeElement;
+        document.addEventListener("keydown", lightboxKeydownHandler);
+        lightboxCloseBtn.focus();
+      }
+
+      loadLightboxVideo(index);
+      updateLightboxNavState();
+    }
+
+    function closeLightbox() {
+      if (!lightboxEl) return;
+      lightboxEl.classList.remove("lightbox--active");
+      lightboxEl.setAttribute("aria-hidden", "true");
+      document.body.classList.remove("body--no-scroll");
+      document.removeEventListener("keydown", lightboxKeydownHandler);
+      currentVideoIndex = -1;
+
+      // Remove iframe to stop playback
+      if (lightboxPlayerWrapper) {
+        lightboxPlayerWrapper.innerHTML = "";
+      }
+
+      if (lastFocusedElement && typeof lastFocusedElement.focus === "function") {
+        lastFocusedElement.focus();
+      }
+    }
+
+    function loadLightboxVideo(index) {
+      const item = videoItems[index];
+      if (!item) return;
+
+      const vimeoId = item.vimeoId || extractVimeoId(item.vimeoUrl);
+      const baseUrl = "https://player.vimeo.com/video/" + encodeURIComponent(vimeoId);
+      const params = "?autoplay=1&title=0&byline=0&portrait=0";
+      const src = baseUrl + params;
+
+      lightboxPlayerWrapper.innerHTML = "";
+      const iframe = document.createElement("iframe");
+      iframe.src = src;
+      iframe.allow = "autoplay; fullscreen; picture-in-picture";
+      iframe.allowFullscreen = true;
+      iframe.setAttribute("title", item.videoTitle || "Vimeo video");
+      lightboxPlayerWrapper.appendChild(iframe);
+
+      lightboxTitle.textContent = item.videoTitle || "Video on Vimeo";
+      lightboxOpenVimeo.href = item.vimeoUrl;
+    }
+
+    function navigateLightbox(direction) {
+      if (currentVideoIndex === -1) return;
+      const newIndex = currentVideoIndex + direction;
+      if (newIndex < 0 || newIndex >= videoItems.length) return;
+      currentVideoIndex = newIndex;
+      loadLightboxVideo(newIndex);
+      updateLightboxNavState();
+    }
+
+    function updateLightboxNavState() {
+      if (!lightboxPrevBtn || !lightboxNextBtn) return;
+      if (videoItems.length <= 1) {
+        lightboxPrevBtn.classList.add("lightbox__nav--disabled");
+        lightboxNextBtn.classList.add("lightbox__nav--disabled");
+        return;
+      }
+      if (currentVideoIndex <= 0) {
+        lightboxPrevBtn.classList.add("lightbox__nav--disabled");
+      } else {
+        lightboxPrevBtn.classList.remove("lightbox__nav--disabled");
+      }
+      if (currentVideoIndex >= videoItems.length - 1) {
+        lightboxNextBtn.classList.add("lightbox__nav--disabled");
+      } else {
+        lightboxNextBtn.classList.remove("lightbox__nav--disabled");
+      }
+    }
+
+    function trapFocus(event) {
+      const focusableSelectors = [
+        "button:not([disabled])",
+        "a[href]",
+        "[tabindex]:not([tabindex='-1'])"
+      ];
+      const focusable = lightboxDialog.querySelectorAll(focusableSelectors.join(","));
+      const focusableArray = Array.prototype.slice.call(focusable)
+        .filter(el => el.offsetParent !== null);
+
+      if (focusableArray.length === 0) return;
+
+      const first = focusableArray[0];
+      const last = focusableArray[focusableArray.length - 1];
+
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      }
+    }
+
+    function handleTouchStart(event) {
+      if (!event.touches || event.touches.length !== 1) return;
+      const touch = event.touches[0];
+      touchStartX = touch.clientX;
+      touchStartY = touch.clientY;
+    }
+
+    function handleTouchMove(event) {
+      // No op, but kept for clarity and possible future use
+    }
+
+    function handleTouchEnd(event) {
+      if (touchStartX === null || touchStartY === null) {
+        return;
+      }
+
+      const touch = event.changedTouches && event.changedTouches[0];
+      if (!touch) return;
+
+      const dx = touch.clientX - touchStartX;
+      const dy = touch.clientY - touchStartY;
+
+      const absDx = Math.abs(dx);
+      const absDy = Math.abs(dy);
+
+      const swipeThreshold = 40;
+
+      if (absDx > swipeThreshold && absDx > absDy) {
+        if (dx < 0) {
+          navigateLightbox(1);
+        } else {
+          navigateLightbox(-1);
+        }
+      }
+
+      touchStartX = null;
+      touchStartY = null;
+    }
+
+    // Language logic
+
     const translations = {
       en: {
         htmlLang: "en",
         skipLink: "Skip to selected work",
         heroEyebrow: "Director of photography",
-        heroSubtitle: "Director of Photography · Italy",
-        heroText1: "Mirko Ciabatti is a director of photography based in Italy. He works on films, commercials, music videos and documentaries, building each frame from light, movement and a clean sense of composition.",
-        heroText2: "He collaborates with directors and production companies across Europe, moving between narrative and commercial sets. He speaks Italian and English and is available for studio and on-location productions.",
+        heroTitle: "Mirko Ciabatti · Director of Photography (DOP)",
+        heroSubtitle: "Director of photography based in Italy, working across films, commercials, music videos and documentaries.",
+        heroText1: "Mirko Ciabatti is a director of photography (DOP) based in Italy. He creates images for films, commercials, music videos and documentaries, building each frame from light, composition and camera movement.",
+        heroText2: "As a cinematographer, Mirko collaborates with directors and production companies across Europe, bringing a grounded, natural approach to storytelling. He works in both studio and on location, in Italian and English speaking environments.",
         heroLinkVimeoLabel: "Portfolio",
         heroLinkVimeoSuffix: "/ Vimeo",
         heroLinkIgLabel: "Stills",
         heroLinkIgSuffix: "/ Instagram",
         workTitle: "Selected work",
-        workDescription: "A curated selection of cinematography work by Mirko Ciabatti, including commercials, music videos and narrative projects shot in Italy and abroad.",
+        workDescription: "A curated selection of cinematography work by director of photography Mirko Ciabatti, including commercials, music videos, narrative films and documentary projects shot in Italy and abroad.",
         contactLabel: "Contact",
         baseLabel: "Base",
         baseValue: "Italy · available for international productions",
@@ -774,15 +1278,16 @@
         htmlLang: "it",
         skipLink: "Salta alla selezione di lavori",
         heroEyebrow: "Direttore della fotografia",
-        heroSubtitle: "Direttore della fotografia · Italia",
-        heroText1: "Mirko Ciabatti è un direttore della fotografia con base in Italia. Lavora su film, spot, videoclip e documentari, costruendo ogni inquadratura a partire dalla luce, dal movimento di macchina e da una composizione essenziale.",
-        heroText2: "Collabora con registi e produzioni in Italia e in Europa, alternando set narrativi e commerciali. Parla italiano e inglese ed è disponibile per produzioni in studio e in esterni.",
+        heroTitle: "Mirko Ciabatti · Direttore della fotografia (DOP)",
+        heroSubtitle: "Direttore della fotografia con base in Italia, attivo su film, spot, videoclip e documentari.",
+        heroText1: "Mirko Ciabatti è un direttore della fotografia (DOP) con base in Italia. Cura l'immagine di film, spot pubblicitari, videoclip e documentari, costruendo ogni inquadratura a partire da luce, composizione e movimento di macchina.",
+        heroText2: "Come direttore della fotografia collabora con registi e produzioni in Italia e in Europa, con un approccio naturale e narrativo. Lavora sia in studio che in esterni, in contesti di lingua italiana e inglese.",
         heroLinkVimeoLabel: "Portfolio",
         heroLinkVimeoSuffix: "/ Vimeo",
         heroLinkIgLabel: "Stills",
         heroLinkIgSuffix: "/ Instagram",
         workTitle: "Lavori selezionati",
-        workDescription: "Una selezione curata di lavori di fotografia cinematografica firmati da Mirko Ciabatti: spot, videoclip e progetti narrativi girati in Italia e all'estero.",
+        workDescription: "Una selezione di lavori di fotografia cinematografica firmati da Mirko Ciabatti: spot, videoclip, film narrativi e documentari girati in Italia e all'estero.",
         contactLabel: "Contatti",
         baseLabel: "Base",
         baseValue: "Italia · disponibile per produzioni internazionali",
@@ -794,11 +1299,11 @@
 
     function setLanguage(lang) {
       const t = translations[lang] || translations.en;
-
       document.documentElement.lang = t.htmlLang;
 
       document.getElementById("skip-link").textContent = t.skipLink;
       document.getElementById("hero-eyebrow").textContent = t.heroEyebrow;
+      document.getElementById("hero-title").textContent = t.heroTitle;
       document.getElementById("hero-subtitle").textContent = t.heroSubtitle;
       document.getElementById("hero-text-1").textContent = t.heroText1;
       document.getElementById("hero-text-2").textContent = t.heroText2;
@@ -812,18 +1317,14 @@
       document.getElementById("base-label").textContent = t.baseLabel;
       document.getElementById("base-value").textContent = t.baseValue;
       document.getElementById("footer-right").innerHTML =
-        (t.htmlLang === "en"
-          ? "<i class='fa-solid fa-cookie-bite' aria-hidden='true'></i> " + t.footerRight
-          : "<i class='fa-solid fa-cookie-bite' aria-hidden='true'></i> " + t.footerRight);
+        "<i class='fa-solid fa-cookie-bite' aria-hidden='true'></i> " + t.footerRight;
 
-      // Aggiorna messaggi di errore/empty se servono
       if (videosMessage.dataset.state === "empty") {
         videosMessage.textContent = t.videosEmpty;
       } else if (videosMessage.dataset.state === "error") {
         videosMessage.textContent = t.videosError;
       }
 
-      // Aggiorna top bar stato attivo
       const buttons = document.querySelectorAll(".lang-switch__btn");
       buttons.forEach(btn => {
         if (btn.dataset.lang === lang) {
@@ -858,7 +1359,9 @@
     }
 
     document.addEventListener("DOMContentLoaded", () => {
+      document.body.classList.add("is-loaded");
       initLanguageSwitcher();
+      initLightbox();
       loadVideos();
     });
   </script>
