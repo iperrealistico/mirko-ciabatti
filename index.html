@@ -7,11 +7,8 @@
   <meta name="description" content="Official portfolio of Mirko Ciabatti, director of photography (DOP) based in Italy. Selected cinematography work for films, commercials, music videos and documentaries.">
   <meta name="robots" content="index,follow">
 
-  <!-- Canonical and hreflang for single page with language param -->
+  <!-- Canonical -->
   <link rel="canonical" href="https://www.mirkociabatti.com/">
-  <link rel="alternate" hreflang="en" href="https://www.mirkociabatti.com/?lang=en">
-  <link rel="alternate" hreflang="it" href="https://www.mirkociabatti.com/?lang=it">
-  <link rel="alternate" hreflang="x-default" href="https://www.mirkociabatti.com/">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
@@ -30,6 +27,8 @@
   <!-- Performance hints -->
   <link rel="preconnect" href="https://vimeo.com" crossorigin>
   <link rel="preconnect" href="https://i.vimeocdn.com" crossorigin>
+  <link rel="preconnect" href="https://www.youtube.com" crossorigin>
+  <link rel="preconnect" href="https://i.ytimg.com" crossorigin>
   <meta name="theme-color" content="#000000">
 
   <!-- Google Fonts -->
@@ -160,6 +159,7 @@
       font-size: 0.98rem;
       line-height: 1.6;
       margin-bottom: 1.25rem;
+      white-space: pre-line; /* preserve line breaks in the intro text */
     }
 
     .hero__text + .hero__text {
@@ -319,41 +319,6 @@
       opacity: 1;
     }
 
-    .video-card__play-badge {
-      position: absolute;
-      inset: auto 0 0 auto;
-      margin: 0.6rem;
-      background: rgba(0, 0, 0, 0.7);
-      border-radius: 999px;
-      padding: 0.3rem 0.7rem;
-      font-size: 0.72rem;
-      text-transform: uppercase;
-      letter-spacing: 0.16em;
-      display: inline-flex;
-      align-items: center;
-      gap: 0.35rem;
-      color: #f5f5f5;
-    }
-
-    .video-card__play-dot {
-      width: 0.45rem;
-      height: 0.45rem;
-      border-radius: 999px;
-      border: 2px solid #f5f5f5;
-      position: relative;
-    }
-
-    .video-card__play-dot::after {
-      content: "";
-      position: absolute;
-      left: 54%;
-      top: 50%;
-      transform: translate(-50%, -50%);
-      border-style: solid;
-      border-width: 0.16rem 0 0.16rem 0.27rem;
-      border-color: transparent transparent transparent #f5f5f5;
-    }
-
     .video-card__body {
       padding: 0.8rem 0.85rem 0.9rem;
       display: flex;
@@ -467,52 +432,6 @@
     :focus-visible {
       outline: 2px solid var(--focus-outline);
       outline-offset: 3px;
-    }
-
-    .top-bar {
-      display: flex;
-      justify-content: flex-end;
-      align-items: center;
-      gap: 0.75rem;
-      margin-bottom: 0.75rem;
-    }
-
-    .lang-switch {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.25rem;
-      font-size: 0.78rem;
-      color: var(--muted-color);
-    }
-
-    .lang-switch__icon {
-      font-size: 0.9rem;
-      color: var(--muted-color);
-    }
-
-    .lang-switch__btn {
-      border: 1px solid var(--border-color);
-      background: transparent;
-      color: var(--muted-color);
-      border-radius: 999px;
-      padding: 0.1rem 0.55rem;
-      font-size: 0.75rem;
-      font-family: "Inter", system-ui, sans-serif;
-      cursor: pointer;
-      transition: background-color var(--transition-speed) ease, border-color var(--transition-speed) ease, color var(--transition-speed) ease, transform var(--transition-speed) ease;
-    }
-
-    .lang-switch__btn:hover,
-    .lang-switch__btn:focus-visible {
-      border-color: var(--accent-color);
-      color: var(--accent-color);
-      transform: translateY(-1px);
-    }
-
-    .lang-switch__btn--active {
-      background: #ffffff;
-      color: #000000;
-      border-color: #ffffff;
     }
 
     /* Lightbox */
@@ -763,33 +682,28 @@
   <div class="site__inner">
     <a href="#work" class="skip-link" id="skip-link">Skip to selected work</a>
 
-    <div class="top-bar" aria-label="Language selector">
-      <div class="lang-switch">
-        <i class="fa-solid fa-globe lang-switch__icon" aria-hidden="true"></i>
-        <button type="button" class="lang-switch__btn lang-switch__btn--active" data-lang="en" aria-label="Switch to English">EN</button>
-        <button type="button" class="lang-switch__btn" data-lang="it" aria-label="Passa all'italiano">IT</button>
-      </div>
-    </div>
+    <!-- ========= EDITABLE TEXT CONTENT (ENGLISH) - YOU CAN EDIT EVERYTHING UNTIL THE NEXT DIVIDER ========= -->
 
     <header class="hero animate-on-load">
-      <div class="hero__eyebrow" id="hero-eyebrow">Director of photography</div>
-      <h1 class="hero__title" id="hero-title">Mirko Ciabatti · Director of Photography (DOP)</h1>
-      <p class="hero__subtitle" id="hero-subtitle">Director of photography based in Italy, working across films, commercials, music videos and documentaries.</p>
+      <div class="hero__eyebrow" id="hero-eyebrow">Cinematographer</div>
+      <h1 class="hero__title" id="hero-title">Mirko Ciabatti Cinematographer</h1>
+      <p class="hero__subtitle" id="hero-subtitle"></p>
 
-      <p class="hero__text" id="hero-text-1">
-        Mirko Ciabatti is a director of photography (DOP) based in Italy. He creates images for films, commercials, music videos and documentaries, building each frame from light, composition and camera movement.
-      </p>
-      <p class="hero__text" id="hero-text-2">
-        As a cinematographer, Mirko collaborates with directors and production companies across Europe, bringing a grounded, natural approach to storytelling. He works in both studio and on location, in Italian and English speaking environments.
+      <p class="hero__text">
+Nice to meet you!
+I’m a cinematographer working across film, fashion, commercials, and music videos.
+Based in Milan and available worldwide.
+I combine creative vision with technical expertise to craft visuals that tell stories and emotionally engage the audience.
+Let’s connect and see where it takes us.
       </p>
 
       <div class="hero__links">
-        <a class="hero__link" href="https://vimeo.com/mirkociabatti" target="_blank" rel="noopener noreferrer me" aria-label="Vimeo portfolio of director of photography Mirko Ciabatti">
+        <a class="hero__link" href="https://vimeo.com/mirkociabatti" target="_blank" rel="noopener noreferrer me" aria-label="Vimeo portfolio of cinematographer Mirko Ciabatti">
           <i class="fa-brands fa-vimeo-v hero__link-icon" aria-hidden="true"></i>
           <span class="hero__link-label" id="hero-link-vimeo-label">Portfolio</span>
           <span class="hero__link-slash" id="hero-link-vimeo-suffix">/ Vimeo</span>
         </a>
-        <a class="hero__link" href="https://www.instagram.com/mirko_ciabatti/?hl=en" target="_blank" rel="noopener noreferrer me" aria-label="Instagram profile of director of photography Mirko Ciabatti">
+        <a class="hero__link" href="https://www.instagram.com/mirko_ciabatti/?hl=en" target="_blank" rel="noopener noreferrer me" aria-label="Instagram profile of cinematographer Mirko Ciabatti">
           <i class="fa-brands fa-instagram hero__link-icon" aria-hidden="true"></i>
           <span class="hero__link-label" id="hero-link-ig-label">Stills</span>
           <span class="hero__link-slash" id="hero-link-ig-suffix">/ Instagram</span>
@@ -817,7 +731,7 @@
           <div class="contact__item">
             <div class="contact__item-label" id="contact-label">Contact</div>
             <div class="contact__item-value">
-              <a href="mailto:info@mirkociabatti.com">contact@mirkociabatti.com</a>
+              <a href="mailto:contact@mirkociabatti.com">contact@mirkociabatti.com</a>
             </div>
           </div>
           <div class="contact__item">
@@ -829,9 +743,11 @@
         </div>
       </section>
     </main>
+
+    <!-- ========= END OF EDITABLE TEXT CONTENT - DO NOT EDIT BELOW THIS LINE ========= -->
   </div>
 
-  <!-- Lightbox Vimeo -->
+  <!-- Lightbox (Vimeo / YouTube) -->
   <div id="lightbox" class="lightbox" aria-hidden="true">
     <div class="lightbox__overlay" data-lightbox-overlay></div>
     <div class="lightbox__dialog" role="dialog" aria-modal="true" aria-label="Video player">
@@ -847,7 +763,7 @@
         </button>
 
         <div class="lightbox__player-wrapper" id="lightbox-player-wrapper">
-          <!-- Vimeo iframe injected here -->
+          <!-- Video iframe injected here -->
         </div>
 
         <div class="lightbox__meta">
@@ -863,12 +779,12 @@
 
   <footer class="site-footer">
     <div class="site-footer__inner">
-        <div>
-        © <span id="year"></span> Mirko Ciabatti. Director of Photography.
+      <div>
+        © <span id="year"></span> Mirko Ciabatti. This website is copyrighted by Mirko Ciabatti.
       </div>
-     <div class="site-footer__right" id="footer-right">
+      <div class="site-footer__right">
         <i class="fa-solid fa-cookie-bite" aria-hidden="true"></i>
-        This website uses no cookies or trackers.
+        Embedded Vimeo and YouTube video players may set cookies strictly necessary for video playback. All third-party video content, trademarks and logos remain the property of their respective legal owners.
       </div>
     </div>
   </footer>
@@ -876,6 +792,10 @@
   <script>
     // Footer year
     document.getElementById("year").textContent = new Date().getFullYear();
+
+    const VIDEOS_EMPTY_MESSAGE = "No videos found. Add Vimeo or YouTube URLs in videos.txt, one per line.";
+    const VIDEOS_ERROR_MESSAGE = "Error loading videos. Check that videos.txt is present next to index.html.";
+    const VIDEO_ALT_TEXT = "Cinematography work by Mirko Ciabatti.";
 
     const videosGrid = document.getElementById("videos-grid");
     const videosMessage = document.getElementById("videos-message");
@@ -889,13 +809,13 @@
     let touchStartX = null;
     let touchStartY = null;
 
-    function createVideoCardSkeleton(vimeoUrl) {
+    function createVideoCardSkeleton(videoUrl, provider) {
       const card = document.createElement("article");
       card.className = "video-card";
 
       const link = document.createElement("a");
       link.className = "video-card__link";
-      link.href = vimeoUrl;
+      link.href = videoUrl;
       link.target = "_blank";
       link.rel = "noopener noreferrer";
 
@@ -906,18 +826,8 @@
       const img = document.createElement("img");
       img.loading = "lazy";
       img.decoding = "async";
-      img.alt = "Cinematography work by director of photography Mirko Ciabatti on Vimeo";
+      img.alt = VIDEO_ALT_TEXT;
       thumb.appendChild(img);
-
-      const badge = document.createElement("div");
-      badge.className = "video-card__play-badge";
-      const playDot = document.createElement("span");
-      playDot.className = "video-card__play-dot";
-      const badgeText = document.createElement("span");
-      badgeText.textContent = "Play on Vimeo";
-      badge.appendChild(playDot);
-      badge.appendChild(badgeText);
-      thumb.appendChild(badge);
 
       const body = document.createElement("div");
       body.className = "video-card__body";
@@ -928,7 +838,13 @@
 
       const meta = document.createElement("div");
       meta.className = "video-card__meta";
-      meta.textContent = "Vimeo";
+      if (provider === "youtube") {
+        meta.textContent = "PLAY ON YOUTUBE";
+      } else if (provider === "vimeo") {
+        meta.textContent = "PLAY ON VIMEO";
+      } else {
+        meta.textContent = "PLAY";
+      }
 
       const skeleton = document.createElement("div");
       skeleton.className = "video-card__skeleton";
@@ -963,6 +879,41 @@
       }
     }
 
+    function detectProvider(urlString) {
+      try {
+        const url = new URL(urlString);
+        const host = url.hostname.toLowerCase();
+        if (host.includes("vimeo.com")) return "vimeo";
+        if (host.includes("youtube.com") || host.includes("youtu.be") || host.includes("youtube-nocookie.com")) return "youtube";
+        return null;
+      } catch (e) {
+        return null;
+      }
+    }
+
+    function extractYouTubeId(urlString) {
+      try {
+        const url = new URL(urlString);
+        const host = url.hostname.toLowerCase();
+        if (host === "youtu.be") {
+          const segments = url.pathname.split("/").filter(Boolean);
+          return segments[0] || null;
+        }
+        if (host.includes("youtube.com") || host.includes("youtube-nocookie.com")) {
+          const vParam = url.searchParams.get("v");
+          if (vParam) return vParam;
+          const segments = url.pathname.split("/").filter(Boolean);
+          const embedIndex = segments.indexOf("embed");
+          if (embedIndex !== -1 && segments[embedIndex + 1]) {
+            return segments[embedIndex + 1];
+          }
+        }
+        return null;
+      } catch (e) {
+        return null;
+      }
+    }
+
     async function loadVideos() {
       try {
         const response = await fetch("videos.txt", { cache: "no-cache" });
@@ -977,7 +928,7 @@
 
         if (!lines.length) {
           videosMessage.dataset.state = "empty";
-          videosMessage.textContent = translations.en.videosEmpty;
+          videosMessage.textContent = VIDEOS_EMPTY_MESSAGE;
           return;
         }
 
@@ -986,14 +937,19 @@
 
         videoItems = [];
 
-        lines.forEach((vimeoUrl, index) => {
-          const vimeoId = extractVimeoId(vimeoUrl);
-          const { card, img, title, meta, skeleton, thumb, link } = createVideoCardSkeleton(vimeoUrl);
+        lines.forEach((videoUrl, index) => {
+          const provider = detectProvider(videoUrl) || "vimeo";
+          const vimeoId = provider === "vimeo" ? extractVimeoId(videoUrl) : null;
+          const youtubeId = provider === "youtube" ? extractYouTubeId(videoUrl) : null;
+
+          const { card, img, title, meta, skeleton, thumb, link } = createVideoCardSkeleton(videoUrl, provider);
           videosGrid.appendChild(card);
 
           videoItems.push({
-            vimeoUrl,
+            url: videoUrl,
+            provider,
             vimeoId,
+            youtubeId,
             img,
             titleElement: title,
             meta,
@@ -1013,36 +969,83 @@
         // Populate data via oEmbed
         for (let i = 0; i < videoItems.length; i++) {
           const item = videoItems[i];
-          const oembedApi = "https://vimeo.com/api/oembed.json?url=" + encodeURIComponent(item.vimeoUrl);
 
-          try {
-            const oembedResponse = await fetch(oembedApi);
-            if (!oembedResponse.ok) {
-              throw new Error("oEmbed error");
-            }
-            const data = await oembedResponse.json();
+          if (item.provider === "vimeo") {
+            const oembedApi = "https://vimeo.com/api/oembed.json?url=" + encodeURIComponent(item.url);
+            try {
+              const oembedResponse = await fetch(oembedApi);
+              if (!oembedResponse.ok) {
+                throw new Error("oEmbed error");
+              }
+              const data = await oembedResponse.json();
 
-            if (data.thumbnail_url) {
-              item.img.src = data.thumbnail_url;
-            } else {
+              if (data.thumbnail_url) {
+                item.img.src = data.thumbnail_url;
+              } else {
+                item.img.src = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1600' height='900'%3E%3Crect width='100%25' height='100%25' fill='%23000000'/%3E%3C/svg%3E";
+              }
+
+              if (data.title) {
+                item.titleElement.textContent = data.title;
+                item.videoTitle = data.title;
+              } else {
+                item.titleElement.textContent = "Video on Vimeo";
+                item.videoTitle = "Video on Vimeo";
+              }
+
+              item.meta.textContent = "PLAY ON VIMEO" + (data.duration ? " · " + Math.round(data.duration) + "s" : "");
+              item.skeleton.remove();
+            } catch (error) {
               item.img.src = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1600' height='900'%3E%3Crect width='100%25' height='100%25' fill='%23000000'/%3E%3C/svg%3E";
-            }
-
-            if (data.title) {
-              item.titleElement.textContent = data.title;
-              item.videoTitle = data.title;
-            } else {
               item.titleElement.textContent = "Video on Vimeo";
               item.videoTitle = "Video on Vimeo";
+              item.meta.textContent = "PLAY ON VIMEO";
+              item.skeleton.remove();
             }
+          } else if (item.provider === "youtube") {
+            const oembedApi = "https://www.youtube.com/oembed?url=" + encodeURIComponent(item.url) + "&format=json";
+            try {
+              const oembedResponse = await fetch(oembedApi);
+              if (!oembedResponse.ok) {
+                throw new Error("YouTube oEmbed error");
+              }
+              const data = await oembedResponse.json();
 
-            item.meta.textContent = "Vimeo" + (data.duration ? " · " + Math.round(data.duration) + "s" : "");
-            item.skeleton.remove();
-          } catch (error) {
+              if (data.thumbnail_url) {
+                item.img.src = data.thumbnail_url;
+              } else if (item.youtubeId) {
+                item.img.src = "https://img.youtube.com/vi/" + encodeURIComponent(item.youtubeId) + "/hqdefault.jpg";
+              } else {
+                item.img.src = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1600' height='900'%3E%3Crect width='100%25' height='100%25' fill='%23000000'/%3E%3C/svg%3E";
+              }
+
+              if (data.title) {
+                item.titleElement.textContent = data.title;
+                item.videoTitle = data.title;
+              } else {
+                item.titleElement.textContent = "YouTube video";
+                item.videoTitle = "YouTube video";
+              }
+
+              item.meta.textContent = "PLAY ON YOUTUBE";
+              item.skeleton.remove();
+            } catch (error) {
+              if (item.youtubeId) {
+                item.img.src = "https://img.youtube.com/vi/" + encodeURIComponent(item.youtubeId) + "/hqdefault.jpg";
+              } else {
+                item.img.src = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1600' height='900'%3E%3Crect width='100%25' height='100%25' fill='%23000000'/%3E%3C/svg%3E";
+              }
+              item.titleElement.textContent = "YouTube video";
+              item.videoTitle = "YouTube video";
+              item.meta.textContent = "PLAY ON YOUTUBE";
+              item.skeleton.remove();
+            }
+          } else {
+            // Unknown provider: fallback
             item.img.src = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1600' height='900'%3E%3Crect width='100%25' height='100%25' fill='%23000000'/%3E%3C/svg%3E";
-            item.titleElement.textContent = "Video on Vimeo";
-            item.videoTitle = "Video on Vimeo";
-            item.meta.textContent = "Vimeo";
+            item.titleElement.textContent = "Video";
+            item.videoTitle = "Video";
+            item.meta.textContent = "PLAY";
             item.skeleton.remove();
           }
         }
@@ -1050,7 +1053,7 @@
         updateLightboxNavState();
       } catch (error) {
         videosMessage.dataset.state = "error";
-        videosMessage.textContent = translations.en.videosError;
+        videosMessage.textContent = VIDEOS_ERROR_MESSAGE;
       }
     }
 
@@ -1128,7 +1131,6 @@
       document.removeEventListener("keydown", lightboxKeydownHandler);
       currentVideoIndex = -1;
 
-      // Remove iframe to stop playback
       if (lightboxPlayerWrapper) {
         lightboxPlayerWrapper.innerHTML = "";
       }
@@ -1142,21 +1144,53 @@
       const item = videoItems[index];
       if (!item) return;
 
-      const vimeoId = item.vimeoId || extractVimeoId(item.vimeoUrl);
-      const baseUrl = "https://player.vimeo.com/video/" + encodeURIComponent(vimeoId);
-      const params = "?autoplay=1&title=0&byline=0&portrait=0";
-      const src = baseUrl + params;
+      let src = "";
+      const provider = item.provider || "vimeo";
+
+      if (provider === "youtube") {
+        const ytId = item.youtubeId || extractYouTubeId(item.url);
+        if (!ytId) return;
+        src = "https://www.youtube.com/embed/" + encodeURIComponent(ytId) + "?autoplay=1&rel=0";
+      } else {
+        const vimeoId = item.vimeoId || extractVimeoId(item.url);
+        if (!vimeoId) return;
+        const baseUrl = "https://player.vimeo.com/video/" + encodeURIComponent(vimeoId);
+        const params = "?autoplay=1&title=0&byline=0&portrait=0";
+        src = baseUrl + params;
+      }
 
       lightboxPlayerWrapper.innerHTML = "";
       const iframe = document.createElement("iframe");
       iframe.src = src;
-      iframe.allow = "autoplay; fullscreen; picture-in-picture";
+      if (provider === "youtube") {
+        iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+      } else {
+        iframe.allow = "autoplay; fullscreen; picture-in-picture";
+      }
       iframe.allowFullscreen = true;
-      iframe.setAttribute("title", item.videoTitle || "Vimeo video");
+      iframe.setAttribute("title", item.videoTitle || (provider === "youtube" ? "YouTube video" : "Vimeo video"));
       lightboxPlayerWrapper.appendChild(iframe);
 
-      lightboxTitle.textContent = item.videoTitle || "Video on Vimeo";
-      lightboxOpenVimeo.href = item.vimeoUrl;
+      lightboxTitle.textContent = item.videoTitle || (provider === "youtube" ? "YouTube video" : "Vimeo video");
+      lightboxOpenVimeo.href = item.url;
+
+      const icon = lightboxOpenVimeo.querySelector("i");
+      const labelSpan = lightboxOpenVimeo.querySelector("span");
+      if (provider === "youtube") {
+        if (icon) {
+          icon.className = "fa-brands fa-youtube";
+        }
+        if (labelSpan) {
+          labelSpan.textContent = "Open on YouTube";
+        }
+      } else {
+        if (icon) {
+          icon.className = "fa-brands fa-vimeo-v";
+        }
+        if (labelSpan) {
+          labelSpan.textContent = "Open on Vimeo";
+        }
+      }
     }
 
     function navigateLightbox(direction) {
@@ -1219,7 +1253,7 @@
     }
 
     function handleTouchMove(event) {
-      // No op, but kept for clarity and possible future use
+      // intentionally left blank
     }
 
     function handleTouchEnd(event) {
@@ -1250,117 +1284,8 @@
       touchStartY = null;
     }
 
-    // Language logic
-    
-    const translations = {
-      en: {
-        htmlLang: "en",
-        skipLink: "Skip to selected work",
-        heroEyebrow: "",
-        heroTitle: "Mirko Ciabatti Cinematographer",
-        heroSubtitle: "",
-        heroText1: "Nice to meet you! I’m a cinematographer working across film, fashion, commercials, and music videos. Based in Milan and available worldwide, I combine creative vision with technical expertise to craft visuals that tell stories and emotionally engage the audience. Let’s connect and see where it takes us.",
-        heroText2: "",
-        heroLinkVimeoLabel: "Portfolio",
-        heroLinkVimeoSuffix: "/ Vimeo",
-        heroLinkIgLabel: "Stills",
-        heroLinkIgSuffix: "/ Instagram",
-        workTitle: "Selected works",
-        workDescription: "",
-        contactLabel: "Get in touch",
-        baseLabel: "Where",
-        baseValue: "Italy-based, available worldwide",
-        footerRight: "This website uses no cookies or trackers.",
-        videosEmpty: "No videos found. Add Vimeo URLs in videos.txt, one per line.",
-        videosError: "Error loading videos. Check that videos.txt is present next to index.html."
-      },
-      it: {
-        htmlLang: "it",
-        skipLink: "Salta alla selezione di lavori",
-        heroEyebrow: "",
-        heroTitle: "Mirko Ciabatti | DOP",
-        heroSubtitle: "XXX",
-        heroText1: "XXX",
-        heroText2: "XXX",
-        heroLinkVimeoLabel: "Portfolio",
-        heroLinkVimeoSuffix: "/ Vimeo",
-        heroLinkIgLabel: "Stills",
-        heroLinkIgSuffix: "/ Instagram",
-        workTitle: "Lavori selezionati",
-        workDescription: "XXX",
-        contactLabel: "Contatti",
-        baseLabel: "Base",
-        baseValue: "Italia, disponibile per produzioni internazionali",
-        footerRight: "Questo sito non utilizza cookie o sistemi di tracciamento.",
-        videosEmpty: "Nessun video trovato. Aggiungi URL Vimeo in videos.txt, uno per riga.",
-        videosError: "Errore nel caricamento dei video. Controlla che videos.txt sia presente nella stessa cartella di index.html."
-      }
-    };
-
-    function setLanguage(lang) {
-      const t = translations[lang] || translations.en;
-      document.documentElement.lang = t.htmlLang;
-
-      document.getElementById("skip-link").textContent = t.skipLink;
-      document.getElementById("hero-eyebrow").textContent = t.heroEyebrow;
-      document.getElementById("hero-title").textContent = t.heroTitle;
-      document.getElementById("hero-subtitle").textContent = t.heroSubtitle;
-      document.getElementById("hero-text-1").textContent = t.heroText1;
-      document.getElementById("hero-text-2").textContent = t.heroText2;
-      document.getElementById("hero-link-vimeo-label").textContent = t.heroLinkVimeoLabel;
-      document.getElementById("hero-link-vimeo-suffix").textContent = t.heroLinkVimeoSuffix;
-      document.getElementById("hero-link-ig-label").textContent = t.heroLinkIgLabel;
-      document.getElementById("hero-link-ig-suffix").textContent = t.heroLinkIgSuffix;
-      document.getElementById("work-title").textContent = t.workTitle;
-      document.getElementById("work-description").textContent = t.workDescription;
-      document.getElementById("contact-label").textContent = t.contactLabel;
-      document.getElementById("base-label").textContent = t.baseLabel;
-      document.getElementById("base-value").textContent = t.baseValue;
-      document.getElementById("footer-right").innerHTML =
-        "<i class='fa-solid fa-cookie-bite' aria-hidden='true'></i> " + t.footerRight;
-
-      if (videosMessage.dataset.state === "empty") {
-        videosMessage.textContent = t.videosEmpty;
-      } else if (videosMessage.dataset.state === "error") {
-        videosMessage.textContent = t.videosError;
-      }
-
-      const buttons = document.querySelectorAll(".lang-switch__btn");
-      buttons.forEach(btn => {
-        if (btn.dataset.lang === lang) {
-          btn.classList.add("lang-switch__btn--active");
-        } else {
-          btn.classList.remove("lang-switch__btn--active");
-        }
-      });
-    }
-
-    function getInitialLang() {
-      const url = new URL(window.location.href);
-      const param = url.searchParams.get("lang");
-      if (param === "it") return "it";
-      return "en";
-    }
-
-    function initLanguageSwitcher() {
-      const initialLang = getInitialLang();
-      setLanguage(initialLang);
-
-      const buttons = document.querySelectorAll(".lang-switch__btn");
-      buttons.forEach(btn => {
-        btn.addEventListener("click", () => {
-          const lang = btn.dataset.lang;
-          const url = new URL(window.location.href);
-          url.searchParams.set("lang", lang);
-          window.history.replaceState({}, "", url.toString());
-          setLanguage(lang);
-        });
-      });
-    }
-
     document.addEventListener("DOMContentLoaded", () => {
       document.body.classList.add("is-loaded");
-      initLanguageSwitcher();
       initLightbox();
       loadVideos();
     });
